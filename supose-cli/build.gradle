@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+
+dependencies {
+    compile project(':supose-core')
+    compile project(':supose-filter:filter')
+
+    compile group: 'com.beust', name: 'jcommander', version: '1.12'
+}

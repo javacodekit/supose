@@ -1,0 +1,7 @@
+println 'First Level: SupoSE:'
+
+include 'supose-core', 
+        'supose-cli',
+        'supose-war',
+        'supose-filter:filter'
+        'supose-filter:filter-model'
